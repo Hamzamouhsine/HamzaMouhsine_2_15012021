@@ -92,6 +92,7 @@ max-width: 80%;
 .ligne1, .ligne2
 {
 display: flex;
+
 flex-wrap: wrap;
 }
 
@@ -110,18 +111,10 @@ html
    margin-bottom: 20px; 
 }
 
-section
-{
-background-color: white;
-margin-right: 30px;
-margin-left: 30px;
 
-}
 aside
 {
 background-color: #F2F2F2;
-margin-right: 30px;
-margin-left: 30px;
 }
 
 /* HEADER mobile */
@@ -141,12 +134,12 @@ vertical-align: top;
 float: right;
 color: #0065FC;
 margin-top: 50px;
-margin-right: 20px;
+margin-right: 40px;
 font-size: 45px;
 
 }
-
-.menu
+/*----------recherche--smallscreen---------- */
+.menuH
 {
     margin-top: 35px;
     text-align: center;
@@ -157,10 +150,10 @@ font-size: 45px;
     border-bottom: solid grey ;
     
 }
-.menu a:hover 
+.menuH a:hover 
 {
-color: #0065FC;    
-border-bottom: blue;
+  color: #0065FC;    
+  border-bottom: #0065FC;
 }
 
 
@@ -185,6 +178,7 @@ border-bottom: blue;
     
   border-radius: 40px;
   border: 40px #F2F2F2;
+  border-left-style: none;
   text-align: center;
   display: flex;
     
@@ -194,6 +188,8 @@ border-bottom: blue;
 .search
 {
  font-size: 50px;
+ padding-left: 30px;
+
 
 }
 
@@ -227,11 +223,15 @@ color: white;
 margin-right: 30px;
 margin-left: 30px;
 }
- 
-.flitres
+h4 
 {
-justify-content: space-around;
+    margin-bottom: 8px;
 }
+
+
+
+
+ /*----------filtres sceensmall---------- */
 
 
 .icons1 , .icons4
@@ -264,29 +264,34 @@ padding-bottom: 40px;
 background-color: #DEEBFF; 
 color:#0065FC ;
 }
-.hebergement
-{
-    
-} 
-/* CECI NE FONCTIONNE PAS*/
 
-.choix1 , .choix2 , .choix3 , .choix4
+
+.choix1 , .choix2, .choix3 , .choix4
 {
  
  border-radius: 100px;
- border: 2px solid grey;
- padding-top: 50px;
- padding-bottom: 50px;
+ border: 7px solid #f2f2f2;
+ border-left-style: none;
+ padding-top: 35px;
+ padding-bottom: 35px;
  padding-left: 0px;
  padding-right: 20px;
  margin: 30px;
- margin: 30px;
  max-width: 60%;
+ display: block;
+ flex-direction: column;
+ 
+
+}
+.choix1 , .choix2
+{
+    float: inline-start;
 }
 
-.choix2
+
+.txtani
 {
-float: right;
+padding-left: 30px;
 }
 
 #info
@@ -299,46 +304,117 @@ padding-left: 30px;
 padding-right: 30px;
 padding-top: 20px;
 padding-bottom: 20px;
-border: 1px solid grey ;
+border: 1px solid #f2f2f2 ;
 color: #0065FC;
 font-size: 27px;
 float: left;
 }
-.hebergements
+/*----------hebergemnt screensmall---------- */
+.hebergement
 {
-padding: 20px;
+
 max-width: 100%;
-background-color: grey;
+background-color: white;
 }
-.cannebiere, .port, .mouettes, .mer, .panier, .amina 
+.Cannebiere, .port, .mouettes, .mer, .panier, .amina 
 {
-max-width: 1024px;
+min-width: 900px;
+max-height: 550px;
 background-color: white;
 border: 10px solid white;
-border-radius: 30px;
-padding-bottom: 2px;
-margin-bottom: 30px; 
+border-radius: 40px;
+padding-bottom: 5px;
+margin-bottom: 30px;
+box-shadow: 20px 20px 20px #f2f2f2; 
+
 }
 
-img
+.imagh
 {
-max-width: 1024px;
-border-radius: 30px 30px 0px 0px;
+
+object-fit: cover;
+width: 100%;
+max-height: 60%;
+border-radius: 40px 40px 0px 0px;
+background-position: cover;
 }
 
 .txt
-
 {
-padding-left: 10px;
-max-width: 100%;
+  background-color: white;
+  padding-left: 10px;
+  display: flex;
+  justify-content: bottom;
+  position: absolute;
+  min-width: 900px;
+  max-height: 20px;
+  line-height: 20px;
 }
 
-.ligne1, .ligne2
+.ligne1, .ligne2 
 {
 display: flex;
 flex-wrap: column;
+justify-content: center;
+}
+#stelle
+{
+ color: #0065FC;
+}
+#stelleg
+{
+    color: #f3f3f3;
 }
 
+
+/*----------aside screensmal---------- */
+article 
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.matin, .coeureau, .bleublanc 
+{
+ min-width: 900px;
+ max-height: 400px;
+ background-color: #f2f2f2;
+ border: 10px solid white;
+ margin: 20px;
+}
+.imgp
+{
+border-radius: 30px 0px 0px 30px;
+max-width: 400px;
+max-height: 400px;
+background-size: cover;
+}
+.txtp 
+{
+    background-color: white;
+    float: right;
+    max-width: 500px;
+    min-height: 400px;
+}
+
+
+
+
+
+
+
+
+/*----------footer screensmall---------- */
+footer 
+{
+
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+    padding-left: 10%;
+
+}
 
 
 
