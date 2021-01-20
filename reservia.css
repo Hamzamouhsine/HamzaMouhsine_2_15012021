@@ -1,18 +1,397 @@
+@media all and (min-width:1024px)
+{
 
-/* GENERAL */
+
+    html
+    {
+       font-size: 15px;
+       margin-top: 20px;
+       margin-bottom: 20px; 
+    }
+    
+    body
+    {
+       font-family: 'Raleway', 'sans-serif';
+       margin: 0 auto;
+    }
+    section, aside, header, article, nav
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    
+ /* ---------------testa  ---------------- */
+    .logo
+    {
+    width: 60px;
+    }
+    .menuH, .inscription
+  {
+    display: inline-flex;
+    float: right;
+    
+   }
+    .menuH
+     {
+        display:inline-flex;
+        justify-content: space-between;
+     }
+    .inscription
+    {
+        color: #0065FC;
+        
+    }
+
+     .heber
+    { 
+      color:#0065FC;
+      padding-right: 15%;
+    }
+    .activ
+    {
+        color: grey;
+        padding-left: 20%;
+    }
+    /* ----------------- */
+    .recherche
+    {
+        border: 1px solid #f2f2f2;
+        border-radius: 10px;
+        width: 345px;
+        max-height: 43px;
+    }
+    .place
+    {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 10px 0px 0px 10px;
+        font-size: 12px;
+        padding:15px;
+
+    }
+
+    button 
+    {
+       background-color: #0065FC;
+       color: white;
+       padding: 10px;
+       border: 1px solid #0065FC;
+       border-radius: 0px 10px 10px 0px ;
+       width: 145px;
+       min-height: 44px;
+    } 
+     /* ---------------4--FILTRES ---------------- */
+    .search
+    {
+    
+
+    }
+    input  
+    {
+    border: none;
+    }
+    .loupe
+    {
+        display: none!important ;
+    }
+    .menu2, .filtres
+    {
+       display: flex; 
+       
+    }
+    .h4f
+    {
+        padding-top: 25px;
+        padding-right: 20px;
+    }
+    .filtres
+    {
+      padding-top: 20px;
+
+    }
+    .choix1, .choix2, .choix3, .choix4
+    {
+        border: 2px solid #DEEBFF;
+        border-radius: 30px;
+        padding: 15px;
+        margin: 8px;
+       padding-left: 0px;
+        
+    }
+    .icons1, .icons2, .icons3, .icons4
+    {
+        border: 1px solid #DEEBFF;
+        border-radius:30px;
+        background-color: #DEEBFF;
+        color: #0065FC;
+        padding: 15px;
+       
+    }
+    .icons2
+    {
+        padding-right: 20px;
+    }
+    .icons3
+    {
+        padding-right: 18px;
+    }
+    .txteco, .txtfam, .txtrom, .txtani
+    {
+        padding-left: 5px;
+    }
+
+   #info, .dispo
+   {
+       display: inline-flex;
+   }
+   #info
+   {
+       border: 1px solid grey;
+       border-radius: 30px;
+       padding: 5px 8px 5px 8px;
+       font-size: 10px;
+       color: #0065FC;
+       margin-left: 160px;
+    }
+   .dispo
+{
+    margin-left: 7px;
+    margin-top: 10px;
+    width: 80%;
+}
+ /* ------------------------ */
+    section, footer, aside
+    {
+    background-color:#F2F2F2; 
+    }
+    
+    
+    ul
+    {
+    list-style-type: none;
+    }
+    
+    a
+    {
+    text-decoration: none;
+    color: black;
+    }
+     /* ------------hebergement a 13 dx ---------------- */
+    .stelle
+    {
+     color: #0065FC;
+    }
+    .stelleg
+    {
+        color: #f3f3f3;
+    }
+    
+    .hebergement
+    {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 710px;
+    max-height: 510px;
+    }
+    .Cannebiere, .port, .mouettes, .mer, .panier, .amina 
+    {
+    
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 5px;
+    min-width: 190px;
+    height: 160px;
+    }
+    .imagh
+    {
+    object-fit: cover;
+    min-width: 200px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+    }
+    
+  
+    .txt
+    
+    {
+    padding-left: 10px;
+    min-width: 190px;
+    max-height: 55px;
+    font-size: 12px;
+    line-height: 4px;
+    }
+    .hebe, .afficher
+    {
+        padding-left: 10px;
+    }
+
+    .ligne1, .ligne2
+    {
+        display: inline-flex;
+    }
+          
+   /*-------------aside popolaire sx ---------------- */
+    
+  aside
+  {
+    max-height: 510px; 
+    max-width: 340px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    
+    
+  }
+
+  .matin, .coeureau, .blue
+  {
+     width: 305px;
+     height: 120px;
+     background-color: white;
+     border: 4px solid white;
+     border-radius: 10px;
+     margin: 10px;
+     display: inline-flex;
+     flex-direction: column;
+    
+
+  }
+  .imgp
+  {
+      object-fit: cover !important ;
+      width: 120px;
+      min-height: 120px;
+      border-radius: 10px 0px 0px 10px;
+  }
+  .txtp
+  {
+      width: 170px;
+      height: 100px;
+      float: right;
+  }
+  #ss
+  {
+      float:right ;
+  }
+  .pop
+  {
+      padding-left: 15px;
+  }
+ /* ---------------Activites sotto---------------- */
+ .h2a
+ {
+     margin-left: 10%;
+ }
+
+   .vieux-port,.fort,.iles,.calanque,.notres-dame,.parc
+   {
+      
+    
+       border-radius: 20px;
+       margin: 15px;
+       box-shadow: 1px 1px 1px 1px whitesmoke ;
+    
+       
+   }
+   .imaga
+   {
+       
+       height: 320px;
+       width: 240px;
+       border-radius: 20px 20px 0px 0px;
+   }
+   .imagb
+   {
+     width: 240px;
+     height: 150px;
+     border-radius: 20px 20px 0px 0px;
+     
+   }
+   .imagc
+   {
+      width: 240px;
+      height: 110px;
+      border-radius: 20px 20px 0px 0px;
+   }
+    .nome
+    {
+        
+        padding-left: 15px;
+        font-size: 12px;
+        
+    }
+    #ancrep
+    {
+         display: inline-flex;
+    }
+    /* ---------------footer---------------- */
+    footer
+    {
+       display: flex;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       font-size: 12px;
+       margin-left: 30px;
+       margin-right: 30px;
+    }
+    .footer1
+    {
+        padding-left: 30px;
+        padding-right: 130;
+    }
+    .footer2
+    {
+        padding-left: 130px;
+        padding-right: 130;
+    }
+    .footer3
+    {
+        padding-left: 130px;
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* ---------------STAAAARTTTT MOBILE ---------------- */
+
+@media screen and (max-width: 1024px)
+{
+
 
 html
 {
-   font-size: 15px;
-   margin-top: 20px;
-   margin-bottom: 20px; 
-}
+   font-size: 40px;
 
+ }
 body
 {
-font-family: 'Raleway', 'sans-serif';
-
+    font-family: 'Raleway', 'sans-serif';
+    margin: 0% auto ;
 }
+
+aside
+{
+background-color: #F2F2F2;
+}
+
 
 section, footer
 {
@@ -39,107 +418,13 @@ color: black;
     color: #f3f3f3;
 }
 
-.hebergements
-{
-padding: 20px;
-border-radius: 20px;
-max-width: 60%;
-}
-.cannebiere, .port, .mouettes, .mer, .panier, .amina 
-{
-max-width: 20%;
-background-color: white;
-border: 3px solid white;
-border-radius: 10px;
-padding-bottom: 6px;
-margin-bottom: 5px;
-
-}
-
-.cannebiere
-{
-margin-right: 20px;
-}
-.port
-{
-margin-right: 20px;
-}
-.mouettes
-{
-margin-right: 20px;
-}
-.mer
-{
-margin-right: 20px;
-}
-.panier
-{
-margin-right: 20px;
-}
-.amina
-{
-margin-right: 20px;
-}
-
-img
-{
-max-width: 100%;
-border-radius: 10px 10px 0px 0px;
-}
-
-.imgamina
-{
-max-height: 10%;
-}
-
-.txt
-
-{
-padding-left: 10px;
-max-width: 80%;
-}
-
-.ligne1, .ligne2
-{
-display: flex;
-
-flex-wrap: wrap;
-}
-
-
-
-/* ---------------Mobile general---------------- */
-
-@media screen and (max-width: 1024px)
-{
-
-
-html
-{
-   font-size: 40px;
-   margin-top: 20px;
-   margin-bottom: 20px; 
-}
-body
-{
-  margin: 0 auto;  
-}
-
-
-aside
-{
-background-color: #F2F2F2;
-}
-
 
 /* HEADER mobile */
 
 .logo
 {
-margin-left: 20px;
 min-height: 120px;
-margin-right: 30px;
-margin-left: 30px;
+margin-left: 5%;
 }
 
 .inscription
@@ -148,15 +433,15 @@ text-align: right;
 vertical-align: top;
 float: right;
 color: #0065FC;
-margin-top: 50px;
-margin-right: 70px;
+margin-top: 5%;
+margin-right: 7%;
 font-size: 40px;
 
 }
 /*----------recherche--smallscreen---------- */
 .menuH
 {
-    margin-top: 50px;
+    margin-top: 5%;
     text-align: center;
     font-size: 45px;
     display: flex;
@@ -166,14 +451,14 @@ font-size: 40px;
 {
 color: #0065FC;
 border-bottom: solid 7px #0065FC;
-padding-bottom: 25px;
+padding-bottom: 3%;
 min-width: 50%;
 
 }
 .activ
 {
 border-bottom: solid 7px #f2f2f2;
-padding-bottom: 25px;
+padding-bottom: 3%;
 min-width: 50%;
 
 }
@@ -181,8 +466,8 @@ min-width: 50%;
 
 .principal
 {
-    margin-right: 30px;
-    margin-left: 50px;
+    margin-right: 2%;
+    margin-left: 5%;
     font-size: 50px;
 }
 
@@ -210,7 +495,7 @@ min-width: 50%;
 .search
 {
  font-size: 50px;
- padding-left: 30px;
+ padding-left: 5%;
 
 
 }
@@ -237,7 +522,7 @@ border: 40px solid #0065FC;
 font-size: 40px;
 background-color: #0065FC;
 color: white;
-margin-right: 50px;
+margin-right: 5%;
 
    
 }
@@ -245,7 +530,8 @@ margin-right: 50px;
 
 h4 
 {
-    margin-bottom: 8px;
+    margin-bottom: 1%;
+    margin-left: 5%;
 }
 
 
@@ -264,16 +550,6 @@ h4
  
 }
 
- 
-
-.h4f
-{
-
-}
-{
-    padding-left: 20px;
-    padding-bottom: 80px;
-}
 .icons1 
 {
 border-radius: 70px;
@@ -400,6 +676,15 @@ float: left;
 
 
 /*----------hebergemnt screensmall---------- */
+.stelle
+{
+ color: #0065FC;
+}
+.stelleg
+{
+    color: #f3f3f3;
+}
+
 .hebe
 {
     padding-left: 30px;
@@ -408,16 +693,19 @@ float: left;
 {
 
 max-width: 100%;
+max-height: 40%;
 background-color: white;
+align-items: center;
+margin-left: 5%;
+margin-right: 5%;
 }
 .Cannebiere, .port, .mouettes, .mer, .panier, .amina 
 {
-min-width: 900px;
-max-height: 550px;
+width: 900px;
+height: 550px;
 background-color: white;
 border: 10px solid white;
 border-radius: 40px;
-padding-bottom: 5px;
 margin-bottom: 30px;
 box-shadow: 20px 20px 20px #f2f2f2; 
 
@@ -430,17 +718,15 @@ object-fit: cover;
 width: 100%;
 max-height: 60%;
 border-radius: 40px 40px 0px 0px;
-background-position: cover;
 }
 
 .txt
 {
   background-color: white;
-  padding-left: 10px;
+  padding-left: 3%;
   justify-content: bottom;
   position: absolute;
-  min-width: 900px;
-  max-height: 20px;
+  width:80%;
   line-height: 20px;
 }
 .afficher
@@ -451,8 +737,7 @@ background-position: cover;
 .ligne1, .ligne2 
 {
 display: flex;
-flex-wrap: column;
-justify-content: center;
+flex-direction: column;
 }
 
 
@@ -531,7 +816,7 @@ aside
     box-shadow: 15px 15px 15px #f2f2f2;
     margin: 50px; 
 }
-.imaga 
+.imaga, .imagb, .imagc
 {
 object-fit: cover;
 width: 100%;
