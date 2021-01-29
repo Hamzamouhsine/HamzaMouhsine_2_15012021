@@ -326,10 +326,10 @@
       margin-left: 10px;
       font-size: 11px;
     }
-    #ancrep
+    .lesactivites
     {
-      display: inline-flex;
-      margin-bottom: 20px;
+        display: inline-flex;
+        margin-bottom: 20px;
     }  
 /* ---------------footer---------------- */
     footer
@@ -644,7 +644,6 @@ h4
 {
     background-color: white;
     padding-left: 3%;
-    justify-content: bottom;
     position: absolute;
     width:80%;
     line-height: 20px;
