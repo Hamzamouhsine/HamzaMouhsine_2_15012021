@@ -173,11 +173,15 @@
 /* ------------hebergement a 13 dx ---------------- */
     .stelle
     {
-     color: #0065FC;
+        color: #0065FC;
+        font-size: 8px;
+        letter-spacing: -2px;  
     }
     .stelleg
     {
         color: #f3f3f3;
+        font-size: 8px;
+        letter-spacing: -2px;
     }
     .hebergement
     {
@@ -325,6 +329,7 @@
     #ancrep
     {
       display: inline-flex;
+      margin-bottom: 20px;
     }  
 /* ---------------footer---------------- */
     footer
@@ -373,14 +378,7 @@ a
     text-decoration: none;
     color: black;
 }
-.stelle
-{
-    color: #0065FC;
-}
-.stelleg
-{
-    color: #f3f3f3;
-}
+
 /* HEADER mobile */
 
 .logo
@@ -466,7 +464,7 @@ button
     font-size: 40px;
     background-color: #0065FC;
     color: white;
-    margin-right: 5%;
+    margin-left: -45px;
 }
 h4 
 {
@@ -602,10 +600,12 @@ h4
 .stelle
 {
     color: #0065FC;
+    letter-spacing: -2px; 
 }
 .stelleg
 {
     color: #f3f3f3;
+    letter-spacing: -2px; 
 }
 
 .hebe
