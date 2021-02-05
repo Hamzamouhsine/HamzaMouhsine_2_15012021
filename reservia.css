@@ -25,8 +25,8 @@
     }
     .menuH, .inscription
     {
-    display: flex;
-    float: right;
+       display: flex;
+       float: right;
     }
     .menuH
      {
@@ -46,7 +46,7 @@
       border-top: 2px solid #0065FC;
       padding-left: 10px;
       padding-right: 10px;
-      padding-top: 20px;
+      padding-top: 22px;
       
     }
     .activ
@@ -81,11 +81,12 @@
        border-radius: 0px 10px 10px 0px ;
        width: 145px;
        min-height: 44px;
+       cursor: pointer;
     } 
      /* ---------------4--FILTRES ---------------- */
     input  
     {
-    border: none;
+        border: none;
     }
     .loupe
     {
@@ -102,7 +103,7 @@
     }
     .filtres
     {
-      padding-top: 20px;
+       padding-top: 20px;
 
     }
     .choix1, .choix2, .choix3, .choix4
@@ -111,7 +112,7 @@
         border-radius: 30px;
         padding: 15px;
         margin: 8px;
-       padding-left: 0px; 
+        padding-left: 0px; 
     }
     .choix1 a:hover, .choix2 a:hover, .choix3 a:hover, .choix4 a:hover
     {
@@ -152,9 +153,9 @@
     }
     .dispo
     {
-    margin-left: 7px;
-    margin-top: 20px;
-    width: 80%;
+       margin-left: 7px;
+       margin-top: 20px;
+       width: 80%;
     }
  /* ------------------------ */
     .hebergement, footer, aside
@@ -288,19 +289,26 @@
  /* ---------------Activites sotto---------------- */
    .h2a
     {
-       margin-left: 25px;
+       margin-left: 15px;
        margin-bottom: 5px;
        margin-top: 20px;
        font-size: 14px;
     }
 
-   .vieux-port,.fort,.iles,.calanque,.notres-dame,.parc
+   .vieux-port,.calanque,.fort,.parc,.iles,.notres-dame
     {
        border-radius: 30px;
-       margin: 10px;
-       box-shadow: 1px 1px 1px 1px whitesmoke;
+       box-shadow: 2px 2px 2px 2px whitesmoke;
+       margin: 15px;
+       display: flex;
     }
-   .imaga
+    .iles, .parc
+    {
+        margin-bottom: 0 auto;
+        margin-top:30px; ;
+    }
+
+    .imaga
     {
       width: 225px;
       height: 290px;
@@ -310,25 +318,26 @@
    .imagb
     {
       width: 225px;
-      height: 160px;
+      height: 130px;
       border-radius: 20px 20px 0px 0px;
       object-fit: cover;
     }
    .imagc
     {
       width: 225px;
-      height: 100px;
+      height: 90px;
       border-radius: 20px 20px 0px 0px;
-      object-fit: cover ;
+      object-fit: cover;
     }
     .nome
     {
-      margin-left: 10px;
+      padding-left: 20px;
       font-size: 11px;
+    
     }
     .lesactivites
     {
-        display: inline-flex;
+        display: flex;
         margin-bottom: 20px;
     }  
 /* ---------------footer---------------- */
@@ -363,11 +372,15 @@
 html
  {
     font-size: 40px;
+    display: table;
+   
  }
 body
 {
     font-family: 'Raleway', 'sans-serif';
     margin: 0% auto ;
+    width: 100%;
+   
 }
 ul
 {
@@ -645,8 +658,9 @@ h4
     background-color: white;
     padding-left: 3%;
     position: absolute;
-    width:80%;
-    line-height: 20px;
+    width:120%;
+    line-height: 15px;
+    
 }
 .afficher
 {
@@ -709,7 +723,7 @@ aside
 {
     background-color: white;
     float: right;
-    width: 520px;
+    width: 500px;
     min-height: 350px;
     line-height: 40px;
 }
